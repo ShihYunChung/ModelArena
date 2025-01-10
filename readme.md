@@ -36,14 +36,15 @@ conda install matplotlib pillow numpy scipy opencv torchvision pytorch scikit-le
 ---
 ### 步驟四：資料集處理
 1. 執行 " tools.ipynb "中第一個儲存格 建立資料夾
-2. 將資料集放在 " 0_data\0_rawDataSet " 下
-3. 執行 " tools.ipynb "中剩下之儲存格即可<br>- 自動處理測試集和驗證集<br>- 查看資料夾結構與資料及資訊<br>- 查看各資料集標註方式
+2. 將解壓縮後的資料集放在 " 0_data\0_rawDataSet " 內
+3. 執行 " tools.ipynb "中剩下之儲存格即可<br>- 自動處理 RSCD dataset-1million 的測試集和驗證集<br>- 查看資料夾結構與資料集資訊<br>- 查看各資料集標註方式
 
 ---
 ### 步驟五：
 1. 修改 "1_src\2_train_model.ipynb" 中的 "Training Parameters" 
 2. 執行訓練
 3. 執行 "1_src\3_evaluate_model.ipynb" 並輸入想測試的權重檔
+4. 察看結果
 ---
 ---
 ---
