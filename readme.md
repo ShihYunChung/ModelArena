@@ -56,3 +56,18 @@ dry_asphalt_severe, dry_asphalt_slight, dry_asphalt_smooth, dry_concrete_severe,
 10. 介面?
 11. 混和精度訓練?
 .py
+
+---
+# git
+
+1. 下載資料夾
+https://github.com/ShihYunChung/ModelArena
+2. git init
+3. git config --global user.name "Your Name"<br>git config --global user.email "your_email@example.com"
+4. git remote add origin https://github.com/ShihYunChung/ModelArena.git
+5. git pull origin main
+6. git add .
+7.  git commit -m "commit"
+8. git push -u origin main
+
+
