@@ -1,6 +1,14 @@
 # 路面損壞分類與資料集整理
 
-## 損壞種類分類
+## 資料集下載
+https://thu-rsxd.com/dxhdiefb/
+
+種類：
+dry_asphalt_severe, dry_asphalt_slight, dry_asphalt_smooth, dry_concrete_severe, dry_concrete_slight, dry_concrete_smooth, dry_gravel, dry_mud, fresh_snow, ice, melted_snow, water_asphalt_severe, water_asphalt_slight, water_asphalt_smooth, water_concrete_severe, water_concrete_slight, water_concrete_smooth, water_gravel, water_mud, wet_asphalt_severe, wet_asphalt_slight, wet_asphalt_smooth, wet_concrete_severe, wet_concrete_slight, wet_concrete_smooth, wet_gravel, wet_mud
+
+
+
+## 損壞種類分類(自定義)
 
 | **類別**       | **損壞種類**                                           |
 |----------------|--------------------------------------------------------|
@@ -33,3 +41,17 @@
     - **無標註**
 
 ---
+
+# 待辦
+
+1. val
+2. early stop
+3. 訓練時間
+4. log紀錄
+5. 圖像化介面
+6. 連續訓練
+7. 其他模型
+8. 儲存準確度
+9. 混淆矩陣 模型名稱、參數
+10. 介面?
+11. 混和精度訓練?
