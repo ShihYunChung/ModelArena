@@ -10,7 +10,7 @@
 1. 下載專案資料夾並在資料夾開啟終端
 https://github.com/ShihYunChung/ModelArena
 2. git init
-3. 登入（若有需要）（替換成ˋ己的名稱與帳號)
+3. 登入（若有需要）（替換成自己的名稱與帳號)
 <br>git config --global user.name "Your Name"<br>git config --global user.email "your_email@example.com"
 4. 連結遠端<br>git remote add origin https://github.com/ShihYunChung/ModelArena.git
 5. git pull origin main
