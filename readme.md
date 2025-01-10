@@ -32,11 +32,11 @@ git commit -m "commit"
 git push -u origin main
 ```
 ---
-### 步驟三：安裝環境
+### 步驟三：安裝虛擬環境與套件
 所需套件：matplotlib, Pillow, numpy, scipy, opencv-python, torchvision, timm, tqdm, torch, scikit-learn
 
 torch 官網下載自己的版本 https://pytorch.org/
-####  conda
+####  conda 安裝指令
 ``` bash 
 conda create -n ModelArena python=3.10 -y
 
