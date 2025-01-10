@@ -7,12 +7,12 @@
 ---
 ### 步驟二：git
 
-1. 下載資料夾並在資料夾開啟終端
+1. 下載專案資料夾並在資料夾開啟終端
 https://github.com/ShihYunChung/ModelArena
 2. git init
-3. 登入(若有需要)
+3. 登入（若有需要）（替換成ˋ己的名稱與帳號)
 <br>git config --global user.name "Your Name"<br>git config --global user.email "your_email@example.com"
-4. git remote add origin https://github.com/ShihYunChung/ModelArena.git
+4. 連結遠端<br>git remote add origin https://github.com/ShihYunChung/ModelArena.git
 5. git pull origin main
 6. git add .
 7.  git commit -m "commit"
@@ -38,6 +38,12 @@ conda install matplotlib pillow numpy scipy opencv torchvision pytorch scikit-le
 1. 執行 " tools.ipynb "中第一個儲存格 建立資料夾
 2. 將資料集放在 " 0_data\0_rawDataSet " 下
 3. 執行 " tools.ipynb "中剩下之儲存格即可<br>- 自動處理測試集和驗證集<br>- 查看資料夾結構與資料及資訊<br>- 查看各資料集標註方式
+
+---
+### 步驟五：
+1. 修改 "1_src\2_train_model.ipynb" 中的 "Training Parameters" 
+2. 執行訓練
+3. 執行 "1_src\3_evaluate_model.ipynb" 並輸入想測試的權重檔
 ---
 ---
 ---
@@ -94,7 +100,7 @@ dry_asphalt_severe, dry_asphalt_slight, dry_asphalt_smooth, dry_concrete_severe,
 7. 其他模型
 8. 儲存準確度
 9. 混淆矩陣 模型名稱、參數
-10. 介面?
+10. 模型儲存
 11. 混和精度訓練?
 .py
 
