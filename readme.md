@@ -6,18 +6,31 @@
 2. 解壓縮
 ---
 ### 步驟二：git
-
-1. 下載專案資料夾並在資料夾開啟終端
+``` bash
+# 1. 下載專案資料夾並在資料夾開啟終端
 https://github.com/ShihYunChung/ModelArena
-2. git init
-3. 登入（若有需要）（替換成自己的名稱與帳號)
-<br>git config --global user.name "Your Name"<br>git config --global user.email "your_email@example.com"
-4. 連結遠端<br>git remote add origin https://github.com/ShihYunChung/ModelArena.git
-5. git pull origin main
-6. git add .
-7.  git commit -m "commit"
-8. git push -u origin main
 
+# 2. 初始化 
+git init
+
+# 3. 登入（此專案僅需一次）   *替換成自己的名稱與帳號
+git config user.name "Your Name"
+git config user.email "your_email@example.com"
+# # 若是自己電腦就可以設全域使用者
+# git config --global user.name "Your Name"
+# git config --global user.email "your_email@example.com"
+
+# 4. 連結遠端
+git remote add origin https://github.com/ShihYunChung/ModelArena.git
+# 5. pull遠端
+git pull origin main
+# 6. 更新本地儲存庫
+git add .
+# 7.  更新之內容
+git commit -m "commit"
+# 8. 上傳 （之後就可以直接用 "git push"）
+git push -u origin main
+```
 ---
 ### 步驟三：安裝環境
 所需套件：matplotlib, Pillow, numpy, scipy, opencv-python, torchvision, timm, tqdm, torch, scikit-learn
